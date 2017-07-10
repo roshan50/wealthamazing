@@ -1,0 +1,175 @@
+@font-face{
+	font-family: iransans;
+	src: url(./_assets/fonts/IRANSansWeb.woff);
+}
+
+body,html{
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	background-image: url("./assests/map.png");
+	background-repeat: no-repeat;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+img{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.wealth-header{
+	width: 1200px;
+}
+.wealth-header--top{
+	background-image: url("./assests/top-header.png");
+	display: flex;
+	color:white;
+	font-size: 14px;
+	padding-top:15px;
+	padding-bottom: 15px;
+}
+.top--menu--ul{
+	list-style: none;
+	margin:0;	/*chera be tore khodkar margin 14 gereft?????*/
+	margin-right: 270px;
+	padding-left: 50px;
+}
+.top--menu--items{
+	display: inline;
+	padding-right: 13px;
+
+}
+.wealth-header--top--time{
+	margin-right: 50px;
+}
+.wealth-header--btm{
+	background-image: url("./assests/buttom-header.png");
+	display: flex;
+	position: relative;
+}
+.wealth-header--btm--logo{
+	padding-top: 10px;
+	margin-left: 50px;
+}
+.wealth-header--btm--sign{
+	display: flex;
+	position: absolute;
+	right: 0;
+}
+.signIn{
+	border: 2px solid red;
+	border-radius: 50px;
+	padding: 5px 30px 5px 30px;
+	color:red;
+	font-size: 19px;
+}
+.signUp{
+	color:#bababa;
+	padding: 10px;
+	margin-right: 50px;
+	font-size: 16px;
+}
+
+
+.wrapper{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.container{
+	width: 1100px;
+}
+
+
+.map{
+	display: flex;
+	margin-top: 158px;
+	border-bottom: 1px solid #bababa;
+	padding-bottom: 65px;
+}
+.map--sticky{
+	color:white;
+	background-color:#2c2c2c;
+	padding: 25px 25px 0 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.map--sticky--title{
+	font-size: 25px;
+	border-bottom: 1px solid #3e3e3e;
+	padding-bottom: 15px;
+	width: 215px;
+}
+.map--sticky--table{
+	font-size: 19px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	border-collapse: collapse; /*chera in 2 khat kar nemikoneeeeeeeeeeeeeeee*/
+	border-spacing:0;
+	width: 295px;
+}
+.map--sticky--table tr td{
+	padding: 10px
+}
+.map--sticky--table tr:nth-child(even) {
+	background: #383838;
+	width: 100%;
+}
+.map--sticky--table tr:nth-child(odd) {
+	background: #3e3e3e;
+	width: 100%;
+}
+.map--sticky--btn{
+	border: 3px solid yellow;
+	border-radius: 50px;
+	padding: 7px 30px 7px 30px;
+	color:#bababa;
+	font-size: 29px;
+	margin-bottom: 15px;
+	width: 215px;
+}
+
+.what{
+	display: flex;
+	margin-top: 27px;
+}
+.what--content{
+	margin-right: 30px;
+}
+.what--content--title{
+	font-size: 24px;
+	margin-top: 5px;
+}
+.what--content--title span{
+	color:yellow;
+}
+.what--content--text{
+	font-size: 15px;
+	color: #666666;
+	margin-top: 20px;
+	text-align: justify;
+  text-justify: inter-word;
+}
+.what--content--btn{
+	border: 3px solid yellow;
+	border-radius: 50px;
+	padding: 10px 20px 10px 20px;
+	color:yellow;
+	font-size: 19px;
+	margin-top: 15px;
+	width: 150px;
+}
+.what--imgDiv{
+	margin-top: 32px;
+}
